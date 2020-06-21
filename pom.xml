@@ -43,7 +43,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <version.war.plugin>2.5</version.war.plugin>
         <version.surefire.plugin>2.16</version.surefire.plugin>
-        <pf4j-spring.version>0.6.0-SNAPSHOT</pf4j-spring.version>
+        <pf4j-spring.version>0.6.0</pf4j-spring.version>
     </properties>
     <scm>
         <connection>scm:git:git://wizzdi/flexicore-entities-provider.git</connection>
@@ -161,12 +161,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.pf4j</groupId>
-            <artifactId>pf4j-spring</artifactId>
-            <version>${pf4j-spring.version}</version>
-            <scope>provided</scope>
-        </dependency>
         <dependency>
             <groupId>com.flexicore</groupId>
             <artifactId>FlexiCore</artifactId>
