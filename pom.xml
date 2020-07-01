@@ -226,13 +226,9 @@
                         <artifactId>maven-scm-provider-gitexe</artifactId>
                         <version>1.9.5</version>
                     </dependency>
-                    <dependency>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>3.2.0</version>
-                    </dependency>
                 </dependencies>
             </plugin>
+
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
