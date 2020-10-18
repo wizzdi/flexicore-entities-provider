@@ -33,10 +33,10 @@
     </developers>
     <properties>
         <version.compiler.plugin>3.3</version.compiler.plugin>
-        <version.eclipselink>2.7.4</version.eclipselink>
+        <version.eclipselink>2.7.7</version.eclipselink>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <swagger.version>2.1.2</swagger.version>
-        <flexicore-api.version>4.0.0-spring</flexicore-api.version>
+        <flexicore-api.version>4.2.0</flexicore-api.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <version.war.plugin>2.5</version.war.plugin>
@@ -47,7 +47,7 @@
         <connection>scm:git:git://wizzdi/flexicore-entities-provider.git</connection>
         <developerConnection>scm:git:git@github.com:wizzdi/flexicore-entities-provider.git</developerConnection>
         <url>https://github.com/wizzdi/flexicore-entities-provider</url>
-        <tag>flexicore-api-4.0.1</tag>
+        <tag>flexicore-entities-provider</tag>
     </scm>
 
     <distributionManagement>
@@ -78,12 +78,6 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>26.0-jre</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.joshworks.unirest</groupId>
-            <artifactId>unirest-java</artifactId>
-            <version>1.8.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -134,12 +128,7 @@
             <version>${version.eclipselink}</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>com.flexicore</groupId>
-            <artifactId>code-gen-model</artifactId>
-            <version>3.6.2</version>
-            <scope>provided</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -153,16 +142,16 @@
         </dependency>
 
         <dependency>
-            <groupId>com.flexicore</groupId>
+            <groupId>com.wizzdi</groupId>
             <artifactId>flexicore-api</artifactId>
             <version>${flexicore-api.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>com.flexicore</groupId>
+            <groupId>com.wizzdi</groupId>
             <artifactId>FlexiCore</artifactId>
-            <version>4.0.0-spring</version>
+            <version>4.2.0</version>
             <scope>provided</scope>
         </dependency>
 
