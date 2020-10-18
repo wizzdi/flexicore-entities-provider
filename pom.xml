@@ -4,7 +4,7 @@
 
     <groupId>com.wizzdi</groupId>
     <artifactId>flexicore-entities-provider</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>flexicore-entities-provider</name>
     <description>flexicore-entities-provider api dependency</description>
     <url>https://wizzdi.com</url>
@@ -47,7 +47,7 @@
         <connection>scm:git:git://wizzdi/flexicore-entities-provider.git</connection>
         <developerConnection>scm:git:git@github.com:wizzdi/flexicore-entities-provider.git</developerConnection>
         <url>https://github.com/wizzdi/flexicore-entities-provider</url>
-        <tag>flexicore-entities-provider-1.0.2</tag>
+        <tag>flexicore-entities-provider</tag>
     </scm>
 
     <distributionManagement>
